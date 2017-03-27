@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263934F21E89494300AB8C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 263934F11E89494300AB8C8B /* main.m */; };
+		263934F51E89494300AB8C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 263934F41E89494300AB8C8B /* AppDelegate.m */; };
+		263934F81E89494300AB8C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263934F71E89494300AB8C8B /* ViewController.m */; };
+		263934FB1E89494300AB8C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263934F91E89494300AB8C8B /* Main.storyboard */; };
+		263934FD1E89494300AB8C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263934FC1E89494300AB8C8B /* Assets.xcassets */; };
+		263935001E89494300AB8C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263934FE1E89494300AB8C8B /* LaunchScreen.storyboard */; };
+		2639350B1E89494300AB8C8B /* drugfinderwithmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2639350A1E89494300AB8C8B /* drugfinderwithmapTests.m */; };
+		263935161E89494400AB8C8B /* drugfinderwithmapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263935151E89494400AB8C8B /* drugfinderwithmapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		263935071E89494300AB8C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 263934E51E89494300AB8C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263934EC1E89494300AB8C8B;
+			remoteInfo = drugfinderwithmap;
+		};
+		263935121E89494400AB8C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 263934E51E89494300AB8C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263934EC1E89494300AB8C8B;
+			remoteInfo = drugfinderwithmap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		263934ED1E89494300AB8C8B /* drugfinderwithmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drugfinderwithmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263934F11E89494300AB8C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		263934F31E89494300AB8C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		263934F41E89494300AB8C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		263934F61E89494300AB8C8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		263934F71E89494300AB8C8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		263934FA1E89494300AB8C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		263934FC1E89494300AB8C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263934FF1E89494300AB8C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		263935011E89494300AB8C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263935061E89494300AB8C8B /* drugfinderwithmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drugfinderwithmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2639350A1E89494300AB8C8B /* drugfinderwithmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drugfinderwithmapTests.m; sourceTree = "<group>"; };
+		2639350C1E89494300AB8C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263935111E89494400AB8C8B /* drugfinderwithmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drugfinderwithmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		263935151E89494400AB8C8B /* drugfinderwithmapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drugfinderwithmapUITests.m; sourceTree = "<group>"; };
+		263935171E89494400AB8C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263934EA1E89494300AB8C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263935031E89494300AB8C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2639350E1E89494400AB8C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263934E41E89494300AB8C8B = {
+			isa = PBXGroup;
+			children = (
+				263934EF1E89494300AB8C8B /* drugfinderwithmap */,
+				263935091E89494300AB8C8B /* drugfinderwithmapTests */,
+				263935141E89494400AB8C8B /* drugfinderwithmapUITests */,
+				263934EE1E89494300AB8C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263934EE1E89494300AB8C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263934ED1E89494300AB8C8B /* drugfinderwithmap.app */,
+				263935061E89494300AB8C8B /* drugfinderwithmapTests.xctest */,
+				263935111E89494400AB8C8B /* drugfinderwithmapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263934EF1E89494300AB8C8B /* drugfinderwithmap */ = {
+			isa = PBXGroup;
+			children = (
+				263934F31E89494300AB8C8B /* AppDelegate.h */,
+				263934F41E89494300AB8C8B /* AppDelegate.m */,
+				263934F61E89494300AB8C8B /* ViewController.h */,
+				263934F71E89494300AB8C8B /* ViewController.m */,
+				263934F91E89494300AB8C8B /* Main.storyboard */,
+				263934FC1E89494300AB8C8B /* Assets.xcassets */,
+				263934FE1E89494300AB8C8B /* LaunchScreen.storyboard */,
+				263935011E89494300AB8C8B /* Info.plist */,
+				263934F01E89494300AB8C8B /* Supporting Files */,
+			);
+			path = drugfinderwithmap;
+			sourceTree = "<group>";
+		};
+		263934F01E89494300AB8C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				263934F11E89494300AB8C8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		263935091E89494300AB8C8B /* drugfinderwithmapTests */ = {
+			isa = PBXGroup;
+			children = (
+				2639350A1E89494300AB8C8B /* drugfinderwithmapTests.m */,
+				2639350C1E89494300AB8C8B /* Info.plist */,
+			);
+			path = drugfinderwithmapTests;
+			sourceTree = "<group>";
+		};
+		263935141E89494400AB8C8B /* drugfinderwithmapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				263935151E89494400AB8C8B /* drugfinderwithmapUITests.m */,
+				263935171E89494400AB8C8B /* Info.plist */,
+			);
+			path = drugfinderwithmapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263934EC1E89494300AB8C8B /* drugfinderwithmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2639351A1E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmap" */;
+			buildPhases = (
+				263934E91E89494300AB8C8B /* Sources */,
+				263934EA1E89494300AB8C8B /* Frameworks */,
+				263934EB1E89494300AB8C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drugfinderwithmap;
+			productName = drugfinderwithmap;
+			productReference = 263934ED1E89494300AB8C8B /* drugfinderwithmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		263935051E89494300AB8C8B /* drugfinderwithmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2639351D1E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmapTests" */;
+			buildPhases = (
+				263935021E89494300AB8C8B /* Sources */,
+				263935031E89494300AB8C8B /* Frameworks */,
+				263935041E89494300AB8C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				263935081E89494300AB8C8B /* PBXTargetDependency */,
+			);
+			name = drugfinderwithmapTests;
+			productName = drugfinderwithmapTests;
+			productReference = 263935061E89494300AB8C8B /* drugfinderwithmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		263935101E89494400AB8C8B /* drugfinderwithmapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263935201E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmapUITests" */;
+			buildPhases = (
+				2639350D1E89494400AB8C8B /* Sources */,
+				2639350E1E89494400AB8C8B /* Frameworks */,
+				2639350F1E89494400AB8C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				263935131E89494400AB8C8B /* PBXTargetDependency */,
+			);
+			name = drugfinderwithmapUITests;
+			productName = drugfinderwithmapUITests;
+			productReference = 263935111E89494400AB8C8B /* drugfinderwithmapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263934E51E89494300AB8C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Darshan Dixit";
+				TargetAttributes = {
+					263934EC1E89494300AB8C8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					263935051E89494300AB8C8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 263934EC1E89494300AB8C8B;
+					};
+					263935101E89494400AB8C8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 263934EC1E89494300AB8C8B;
+					};
+				};
+			};
+			buildConfigurationList = 263934E81E89494300AB8C8B /* Build configuration list for PBXProject "drugfinderwithmap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263934E41E89494300AB8C8B;
+			productRefGroup = 263934EE1E89494300AB8C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263934EC1E89494300AB8C8B /* drugfinderwithmap */,
+				263935051E89494300AB8C8B /* drugfinderwithmapTests */,
+				263935101E89494400AB8C8B /* drugfinderwithmapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263934EB1E89494300AB8C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263935001E89494300AB8C8B /* LaunchScreen.storyboard in Resources */,
+				263934FD1E89494300AB8C8B /* Assets.xcassets in Resources */,
+				263934FB1E89494300AB8C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263935041E89494300AB8C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2639350F1E89494400AB8C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263934E91E89494300AB8C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263934F81E89494300AB8C8B /* ViewController.m in Sources */,
+				263934F51E89494300AB8C8B /* AppDelegate.m in Sources */,
+				263934F21E89494300AB8C8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263935021E89494300AB8C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2639350B1E89494300AB8C8B /* drugfinderwithmapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2639350D1E89494400AB8C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263935161E89494400AB8C8B /* drugfinderwithmapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		263935081E89494300AB8C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263934EC1E89494300AB8C8B /* drugfinderwithmap */;
+			targetProxy = 263935071E89494300AB8C8B /* PBXContainerItemProxy */;
+		};
+		263935131E89494400AB8C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263934EC1E89494300AB8C8B /* drugfinderwithmap */;
+			targetProxy = 263935121E89494400AB8C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		263934F91E89494300AB8C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263934FA1E89494300AB8C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		263934FE1E89494300AB8C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263934FF1E89494300AB8C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263935181E89494400AB8C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263935191E89494400AB8C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2639351B1E89494400AB8C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = drugfinderwithmap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2639351C1E89494400AB8C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = drugfinderwithmap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2639351E1E89494400AB8C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = drugfinderwithmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drugfinderwithmap.app/drugfinderwithmap";
+			};
+			name = Debug;
+		};
+		2639351F1E89494400AB8C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = drugfinderwithmapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drugfinderwithmap.app/drugfinderwithmap";
+			};
+			name = Release;
+		};
+		263935211E89494400AB8C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = drugfinderwithmapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = drugfinderwithmap;
+			};
+			name = Debug;
+		};
+		263935221E89494400AB8C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = drugfinderwithmapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dixit.drugfinderwithmapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = drugfinderwithmap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263934E81E89494300AB8C8B /* Build configuration list for PBXProject "drugfinderwithmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263935181E89494400AB8C8B /* Debug */,
+				263935191E89494400AB8C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2639351A1E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2639351B1E89494400AB8C8B /* Debug */,
+				2639351C1E89494400AB8C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2639351D1E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2639351E1E89494400AB8C8B /* Debug */,
+				2639351F1E89494400AB8C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		263935201E89494400AB8C8B /* Build configuration list for PBXNativeTarget "drugfinderwithmapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263935211E89494400AB8C8B /* Debug */,
+				263935221E89494400AB8C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263934E51E89494300AB8C8B /* Project object */;
+}
